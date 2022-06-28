@@ -12,7 +12,7 @@ $email = $_POST['email'];
 
 // MENGALIHKAN KE HALAMAN UTAMA JIKA DATA BELUM DI-INPUT
 if($email == ""){
-header("Location: index.php");
+header("Location: index.html");
 }
 ?>
 <html><head>
